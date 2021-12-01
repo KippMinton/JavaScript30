@@ -28,9 +28,23 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  transition: all .07s ease;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: goldenrod;
+  box-shadow: 0 0 1rem goldenrod;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: goldenrod;
 }
